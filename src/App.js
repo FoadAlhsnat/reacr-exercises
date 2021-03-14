@@ -1,10 +1,12 @@
 
-import Btn from './components/Button/Button'
+import faker from 'faker'
+import Card from './components/Card/Card'
 function App() {
   return (
-    <div>
-      <Btn content="Important" styleClass="bold"/>
-      <Btn content="Not Important" />
+    <div style={{display:'flex'}} >
+      <Card src={faker.image.cats()}/>
+      <Card src={faker.image.cats()}/>
+      <Card src={faker.image.cats()} />
     </div>
 
   );
