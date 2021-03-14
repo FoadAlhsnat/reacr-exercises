@@ -1,8 +1,12 @@
 
-import Quiz from './components/3.2_quiz/Quiz'
+import Btn from './components/Button/Button'
 function App() {
   return (
-    <Quiz/>
+    <div>
+      <Btn content="Important" styleClass="bold"/>
+      <Btn content="Not Important" />
+    </div>
+
   );
 }
 
