@@ -1,6 +1,6 @@
 
-
 import Btn from './components/Buttonstate/Btn'
+import Show from './components/ShowAndHidd/Componenet'
 
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
     //   <Card src={faker.image.cats()} />
     // </div>
     <div>
+       <Show/>
        <Btn/>
     </div>
    

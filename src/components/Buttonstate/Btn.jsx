@@ -5,10 +5,10 @@ class Btn extends Component {
   constructor() {
     super()
     this.state = { count:0 }
-    this.Handelclick=this.Handelclick.bind(this)
+   // this.Handelclick=this.Handelclick.bind(this)
   }
 
-  Handelclick() {
+  Handelclick=()=> {
     this.setState({ count: ++this.state.count })
   }
 

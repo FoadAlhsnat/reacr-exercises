@@ -1,0 +1,12 @@
+.hidd,.show{
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+
+.hidd{
+  display: none;
+}
+.show{
+  display: block;
+}
