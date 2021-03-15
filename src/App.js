@@ -1,14 +1,19 @@
 
-import faker from 'faker'
-import Card from './components/Card/Card'
+
+import Btn from './components/Buttonstate/Btn'
+
+
 function App() {
   return (
-    <div style={{display:'flex'}} >
-      <Card src={faker.image.cats()}/>
-      <Card src={faker.image.cats()}/>
-      <Card src={faker.image.cats()} />
+    // <div style={{display:'flex'}} >
+    //   <Card src={faker.image.cats()}/>
+    //   <Card src={faker.image.cats()}/>
+    //   <Card src={faker.image.cats()} />
+    // </div>
+    <div>
+       <Btn/>
     </div>
-
+   
   );
 }
 
