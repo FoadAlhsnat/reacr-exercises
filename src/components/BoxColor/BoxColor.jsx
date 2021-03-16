@@ -19,7 +19,6 @@ export default class BoxColor extends Component {
         colerBlue: (Math.random() * 255),
         counter: this.state.counter + 1
       })
-      console.log(this.state.counter);
       if (this.state.counter >= 5) {
         this.setState({ borderRadius: 50});
         
