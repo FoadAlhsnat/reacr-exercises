@@ -1,5 +1,6 @@
 
 import Btn from './components/Buttonstate/Btn'
+import LifeCycle from './components/LifeCycle/LifeCycle';
 import Show from './components/ShowAndHidd/Componenet'
 
 
@@ -11,8 +12,9 @@ function App() {
     //   <Card src={faker.image.cats()} />
     // </div>
     <div>
-       <Show/>
-       <Btn/>
+       {/* <Show/>
+       <Btn/> */}
+       <LifeCycle/>
     </div>
    
   );
