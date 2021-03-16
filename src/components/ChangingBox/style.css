@@ -1,0 +1,14 @@
+.box {
+  position: absolute;
+  left: -20px;
+  animation: slideIn 1s linear;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
