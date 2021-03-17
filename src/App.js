@@ -2,6 +2,7 @@
 import BoxColor from './components/BoxColor/BoxColor';
 import Btn from './components/Buttonstate/Btn'
 import ChangingBox from './components/ChangingBox/ChangingBox';
+import Checkbox from './components/CheckBox/Checkbox';
 import Butten from './components/ChildToFather/Butten';
 import Buttons from './components/ChildToFather/Buttons';
 import LifeCycle from './components/LifeCycle/LifeCycle';
@@ -26,7 +27,7 @@ function App() {
         {/* <BoxColor/> */}
         {/* <Spinner/> */}
        <Buttons/>
-
+        <Checkbox/>
     </div>
    
   );

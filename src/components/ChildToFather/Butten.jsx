@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Butten extends Component {
 
   clicked=(e)=>{ 
-    this.props.onClick(e.target.innerText)
+    this.props.onClick(this.props.color)
   }
   render() {
     return (
