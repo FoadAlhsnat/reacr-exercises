@@ -17,7 +17,10 @@ export default class Spinner extends Component {
       // <div className="loader">
         
       // </div>
-      this.state.activ?<div className="loader"></div>:null
+      <div>
+       { this.state.activ?<div className="loader"></div>:null}
+
+      </div>
     )
   }
 }
