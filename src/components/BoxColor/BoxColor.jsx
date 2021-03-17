@@ -23,12 +23,16 @@ export default class BoxColor extends Component {
         this.setState({ borderRadius: 50});
         
       }
+      if(this.state.counter>=20){
+        this.setState({appears:false})
+        clearInterval(interval)
+      }
     }, 500);
   }
 
 
   render() {
-    console.log(`rgb(${this.state.colerRed}, ${this.state.colerGreen}, ${this.state.colerBlue})`);
+
     let boxstyle = {
       backgroundColor: `rgb(${this.state.colerRed}, ${this.state.colerGreen}, ${this.state.colerBlue})`,
       borderRadius: `${this.state.borderRadius}%`

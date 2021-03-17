@@ -2,6 +2,8 @@
 import BoxColor from './components/BoxColor/BoxColor';
 import Btn from './components/Buttonstate/Btn'
 import ChangingBox from './components/ChangingBox/ChangingBox';
+import Butten from './components/ChildToFather/Butten';
+import Buttons from './components/ChildToFather/Buttons';
 import LifeCycle from './components/LifeCycle/LifeCycle';
 import Show from './components/ShowAndHidd/Componenet'
 import Spinner from './components/Spinner/Spinner';
@@ -22,7 +24,9 @@ function App() {
         <ChangingBox size="70px" color="blue" top="70px"/>
         <ChangingBox size="90px" color="purple" top="150px"/> */}
         {/* <BoxColor/> */}
-        <Spinner/>
+        {/* <Spinner/> */}
+       <Buttons/>
+
     </div>
    
   );
