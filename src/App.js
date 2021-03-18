@@ -5,6 +5,7 @@ import ChangingBox from './components/ChangingBox/ChangingBox';
 import Checkbox from './components/CheckBox/Checkbox';
 import Butten from './components/ChildToFather/Butten';
 import Buttons from './components/ChildToFather/Buttons';
+import Form from './components/Form/Form';
 import LifeCycle from './components/LifeCycle/LifeCycle';
 import Show from './components/ShowAndHidd/Componenet'
 import Spinner from './components/Spinner/Spinner';
@@ -26,8 +27,9 @@ function App() {
         <ChangingBox size="90px" color="purple" top="150px"/> */}
         {/* <BoxColor/> */}
         {/* <Spinner/> */}
-       <Buttons/>
-        <Checkbox/>
+       {/* <Buttons/>
+        <Checkbox/> */}
+        <Form/>
     </div>
    
   );
