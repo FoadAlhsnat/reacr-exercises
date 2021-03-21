@@ -5,6 +5,7 @@ import ChangingBox from './components/ChangingBox/ChangingBox';
 import Checkbox from './components/CheckBox/Checkbox';
 import Butten from './components/ChildToFather/Butten';
 import Buttons from './components/ChildToFather/Buttons';
+import DataMsage from './components/DataMsage/DataMsage';
 import Form from './components/Form/Form';
 import LifeCycle from './components/LifeCycle/LifeCycle';
 import Norris from './components/Norris/Norris';
@@ -31,7 +32,8 @@ function App() {
        {/* <Buttons/>
         <Checkbox/> */}
         {/* <Form/> */}
-        <Norris/>
+        {/* <Norris/> */}
+        <DataMsage/>
     </div>
    
   );

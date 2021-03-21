@@ -4,9 +4,7 @@ export class joke extends Component {
   render() {
     return (
       <div>
-        {
-          this.props.joke
-        }
+        
       </div>
     )
   }
