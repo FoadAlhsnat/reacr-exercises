@@ -4,16 +4,11 @@ export default class Card extends Component {
   state = {
     arr: this.props.old
   }
-  async componentDidUpdate(prevPrpos) {
+  componentDidUpdate(prevPrpos) {
     if (prevPrpos.old.length !== this.props.old.length) {
-    await this.setState({ names: this.props.names })
-    }
-    else{
-    await this.setState({ names: prevPrpos.old })
+      this.setState({ names: this.props.names })
     }
     console.log(prevPrpos.old.length,this.props.old.length);
-    
-    return true;
   }
   render() {
     return (

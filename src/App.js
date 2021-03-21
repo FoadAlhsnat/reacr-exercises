@@ -1,4 +1,5 @@
 
+import Avatar from './components/Avatar/Avatar';
 import BoxColor from './components/BoxColor/BoxColor';
 import Btn from './components/Buttonstate/Btn'
 import ChangingBox from './components/ChangingBox/ChangingBox';
@@ -33,7 +34,8 @@ function App() {
         <Checkbox/> */}
         {/* <Form/> */}
         {/* <Norris/> */}
-        <DataMsage/>
+        {/* <DataMsage/> */}
+        <Avatar/>
     </div>
    
   );
