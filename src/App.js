@@ -34,8 +34,8 @@ function App() {
         <Checkbox/> */}
         {/* <Form/> */}
         {/* <Norris/> */}
-        {/* <DataMsage/> */}
-        <Avatar/>
+        <DataMsage/>
+        {/* <Avatar/> */}
     </div>
    
   );

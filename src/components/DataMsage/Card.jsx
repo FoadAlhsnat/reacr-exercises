@@ -6,7 +6,8 @@ export default class Card extends Component {
   }
   componentDidUpdate(prevPrpos) {
     if (prevPrpos.old.length !== this.props.old.length) {
-      this.setState({ names: this.props.names })
+      this.setState({ arr: this.props.old })
+      
     }
     console.log(prevPrpos.old.length,this.props.old.length);
   }
