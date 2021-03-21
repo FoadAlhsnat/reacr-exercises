@@ -1,9 +1,10 @@
 import '../Button/btnCss.css'
 const Btn=(props)=>{
-  return <button className={props.styleClass}>
-    {
-      props.content
-    }
+ const handelclick=()=>{
+    props.newjoke()
+  }
+  return <button onClick={handelclick}>
+    Click me
   </button>
 }
 

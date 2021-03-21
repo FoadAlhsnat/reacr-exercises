@@ -7,6 +7,7 @@ import Butten from './components/ChildToFather/Butten';
 import Buttons from './components/ChildToFather/Buttons';
 import Form from './components/Form/Form';
 import LifeCycle from './components/LifeCycle/LifeCycle';
+import Norris from './components/Norris/Norris';
 import Show from './components/ShowAndHidd/Componenet'
 import Spinner from './components/Spinner/Spinner';
 
@@ -29,7 +30,8 @@ function App() {
         {/* <Spinner/> */}
        {/* <Buttons/>
         <Checkbox/> */}
-        <Form/>
+        {/* <Form/> */}
+        <Norris/>
     </div>
    
   );
