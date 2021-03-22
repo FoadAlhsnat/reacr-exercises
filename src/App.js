@@ -6,6 +6,7 @@ import ChangingBox from './components/ChangingBox/ChangingBox';
 import Checkbox from './components/CheckBox/Checkbox';
 import Butten from './components/ChildToFather/Butten';
 import Buttons from './components/ChildToFather/Buttons';
+import TextArea from './components/Copy/TextArea';
 import DataMsage from './components/DataMsage/DataMsage';
 import Form from './components/Focus/Form';
 import LifeCycle from './components/LifeCycle/LifeCycle';
@@ -36,7 +37,8 @@ function App() {
         {/* <Norris/> */}
         {/* <DataMsage/> */}
         {/* <Avatar/> */}
-        <Form/>
+        {/* <Form/> */}
+        <TextArea/>
     </div>
    
   );
