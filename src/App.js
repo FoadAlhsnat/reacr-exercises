@@ -7,7 +7,7 @@ import Checkbox from './components/CheckBox/Checkbox';
 import Butten from './components/ChildToFather/Butten';
 import Buttons from './components/ChildToFather/Buttons';
 import DataMsage from './components/DataMsage/DataMsage';
-import Form from './components/Form/Form';
+import Form from './components/Focus/Form';
 import LifeCycle from './components/LifeCycle/LifeCycle';
 import Norris from './components/Norris/Norris';
 import Show from './components/ShowAndHidd/Componenet'
@@ -34,8 +34,9 @@ function App() {
         <Checkbox/> */}
         {/* <Form/> */}
         {/* <Norris/> */}
-        <DataMsage/>
+        {/* <DataMsage/> */}
         {/* <Avatar/> */}
+        <Form/>
     </div>
    
   );
