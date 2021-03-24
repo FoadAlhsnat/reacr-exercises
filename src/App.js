@@ -13,6 +13,7 @@ import LifeCycle from './components/LifeCycle/LifeCycle';
 import Norris from './components/Norris/Norris';
 import Show from './components/ShowAndHidd/Componenet'
 import Spinner from './components/Spinner/Spinner';
+import { Store } from './components/Store/Store';
 
 
 function App() {
@@ -38,7 +39,8 @@ function App() {
         {/* <DataMsage/> */}
         {/* <Avatar/> */}
         {/* <Form/> */}
-        <TextArea/>
+        {/* <TextArea/> */}
+        <Store/>
     </div>
    
   );
