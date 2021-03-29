@@ -12,6 +12,7 @@ import Form from './components/Focus/Form';
 import LifeCycle from './components/LifeCycle/LifeCycle';
 import Norris from './components/Norris/Norris';
 import Show from './components/ShowAndHidd/Componenet'
+import TodoApp from './components/simpleTodo/TodoApp';
 import Spinner from './components/Spinner/Spinner';
 import { Store } from './components/Store/Store';
 import Main from './components/Text/main';
@@ -42,7 +43,10 @@ function App() {
         {/* <Form/> */}
         {/* <TextArea/> */}
         {/* <Store/> */}
-        <Main/>
+        {/* <Main/> */}
+        
+          <TodoApp/>
+        
     </div>
    
   );
