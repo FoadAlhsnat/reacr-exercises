@@ -16,6 +16,7 @@ import TodoApp from './components/simpleTodo/TodoApp';
 import Spinner from './components/Spinner/Spinner';
 import { Store } from './components/Store/Store';
 import Main from './components/Text/main';
+import Whatisthetime from './components/Time/Whatisthetime';
 
 
 function App() {
@@ -44,9 +45,8 @@ function App() {
         {/* <TextArea/> */}
         {/* <Store/> */}
         {/* <Main/> */}
-        
-          <TodoApp/>
-        
+          {/* <TodoApp/> */}
+        <Whatisthetime/>
     </div>
    
   );
