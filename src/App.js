@@ -14,6 +14,7 @@ import Norris from './components/Norris/Norris';
 import Show from './components/ShowAndHidd/Componenet'
 import Spinner from './components/Spinner/Spinner';
 import { Store } from './components/Store/Store';
+import Main from './components/Text/main';
 
 
 function App() {
@@ -40,7 +41,8 @@ function App() {
         {/* <Avatar/> */}
         {/* <Form/> */}
         {/* <TextArea/> */}
-        <Store/>
+        {/* <Store/> */}
+        <Main/>
     </div>
    
   );
