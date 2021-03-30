@@ -9,6 +9,7 @@ import Butten from './components/ChildToFather/Butten';
 import Buttons from './components/ChildToFather/Buttons';
 import TextArea from './components/Copy/TextArea';
 import DataMsage from './components/DataMsage/DataMsage';
+import Feach from './components/fechdata/Feach';
 import Form from './components/Focus/Form';
 import LifeCycle from './components/LifeCycle/LifeCycle';
 import Norris from './components/Norris/Norris';
@@ -48,7 +49,8 @@ function App() {
         {/* <Main/> */}
           {/* <TodoApp/> */}
         {/* <Whatisthetime/> */}
-        <CheckBoxs/>
+        {/* <CheckBoxs/> */}
+        <Feach/>
     </div>
    
   );
