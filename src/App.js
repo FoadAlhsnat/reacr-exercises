@@ -4,6 +4,7 @@ import BoxColor from './components/BoxColor/BoxColor';
 import Btn from './components/Buttonstate/Btn'
 import ChangingBox from './components/ChangingBox/ChangingBox';
 import Checkbox from './components/CheckBox/Checkbox';
+import CheckBoxs from './components/Checkboxs/CheckBoxs';
 import Butten from './components/ChildToFather/Butten';
 import Buttons from './components/ChildToFather/Buttons';
 import TextArea from './components/Copy/TextArea';
@@ -46,7 +47,8 @@ function App() {
         {/* <Store/> */}
         {/* <Main/> */}
           {/* <TodoApp/> */}
-        <Whatisthetime/>
+        {/* <Whatisthetime/> */}
+        <CheckBoxs/>
     </div>
    
   );
