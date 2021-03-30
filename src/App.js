@@ -8,6 +8,7 @@ import CheckBoxs from './components/Checkboxs/CheckBoxs';
 import Butten from './components/ChildToFather/Butten';
 import Buttons from './components/ChildToFather/Buttons';
 import TextArea from './components/Copy/TextArea';
+import Countries from './components/countres/countries';
 import DataMsage from './components/DataMsage/DataMsage';
 import Feach from './components/fechdata/Feach';
 import Form from './components/Focus/Form';
@@ -50,7 +51,8 @@ function App() {
           {/* <TodoApp/> */}
         {/* <Whatisthetime/> */}
         {/* <CheckBoxs/> */}
-        <Feach/>
+        {/* <Feach/> */}
+        <Countries/>
     </div>
    
   );
