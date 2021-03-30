@@ -12,6 +12,7 @@ import Countries from './components/countres/countries';
 import DataMsage from './components/DataMsage/DataMsage';
 import Feach from './components/fechdata/Feach';
 import Form from './components/Focus/Form';
+import Foad from './components/Hoks/Foad';
 import LifeCycle from './components/LifeCycle/LifeCycle';
 import Norris from './components/Norris/Norris';
 import Show from './components/ShowAndHidd/Componenet'
@@ -52,7 +53,8 @@ function App() {
         {/* <Whatisthetime/> */}
         {/* <CheckBoxs/> */}
         {/* <Feach/> */}
-        <Countries/>
+        {/* <Countries/> */}
+        <Foad/>
     </div>
    
   );
