@@ -18,7 +18,7 @@ export default function Countries() {
    // filter.filter((item) => console.log(item.name.toLowerCase()))
     let fill = data.filter((item) => item.name.toLowerCase().startsWith(term.toLocaleLowerCase()))
     setFilter(fill)
-console.log(term);
+    console.log(term);
     //console.log(fill);
 
   },[term])
